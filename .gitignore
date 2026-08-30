@@ -1,0 +1,24 @@
+# ── python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ── model weights / caches ───────────────────────────────────────────────────
+# Weights come from the Hugging Face cache at runtime; nothing is stored here.
+*.safetensors
+*.bin
+*.pt
+.cache/
+hf_cache/
+
+# ── ray ──────────────────────────────────────────────────────────────────────
+/tmp/ray/
+ray_results/
+
+# ── editors / os ─────────────────────────────────────────────────────────────
+.DS_Store
+.vscode/
+.idea/
